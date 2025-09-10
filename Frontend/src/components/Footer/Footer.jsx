@@ -2,11 +2,9 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='mt-4 mb-0 w-screen text-center bg-gray-900 py-4'>
-      <p className="text-center text-gray-600">
-        &copy; {new Date().getFullYear()} ResumeToPortfolio. All rights reserved.
-      </p>
-    </div>
+      <footer className="max-w-6xl mx-auto px-6 py-6 text-center text-sm text-slate-600">
+        © {new Date().getFullYear()} PortfolioBuilder. All rights reserved.
+      </footer>
   )
 }
 
